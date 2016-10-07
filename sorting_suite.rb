@@ -1,6 +1,0 @@
-
-
-class SortingSuite
-
-end
-

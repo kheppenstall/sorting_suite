@@ -10,7 +10,11 @@ class SelectionSort
       to_sort.delete_at(min_element_index)
       sorted << min_element
     end
-
-    p sorted
+    sorted
   end
+
 end
+
+sorter = SelectionSort.new
+array = [3,4,1,2]
+puts sorter.sort(array).inspect
